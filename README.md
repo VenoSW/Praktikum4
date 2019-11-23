@@ -17,7 +17,7 @@ while perulangan:                                                     ## Looping
     nim = input("Masukkan NIM: ")                                     ## Membuat variable nim untuk list dan menginputkan datanya
     nilaiTugas = int(input("Masukkan Nilai Tugas: "))                 ## Membuat variable nilaiTugas untuk list dan menginputkan datanya
     nilaiUts = int(input("Masukkan Nilai UTS: "))                     ## Membuat variable nilaiUts untuk list dan menginputkan datanya
-    nilaiUas = int(input("Masukkan Nilai UTS: ")                      ## Membuat variable nilaiUas untuk list dan menginputkan datanya
+    nilaiUas = int(input("Masukkan Nilai UAS: ")                      ## Membuat variable nilaiUas untuk list dan menginputkan datanya
     nilaiAkhir = (nilaiTugas * 30/100) + (nilaiUts * 35/100) + (nilaiUas * 35/100) ## Membuat variable nilaiAkhir untuk list dan menggabungkan nilaiTugas, uts, dan uas dengan syarat yang sudah ditentukan.
 
     nilai.append([nama, nim, nilaiTugas, nilaiUts, nilaiUas, int(nilaiAkhir)])  ## Menambahkan semua list nama sampai nilaiAkhir ke list nilai.
@@ -35,6 +35,8 @@ for item in nilai:                                                            ##
           .format(no=i, nama=item[0], nim=item[1], nilaiTugas=item[2], nilaiUts=item[3], nilaiUas=item[4], nilaiAkhir=item[5])) ## Mengambil list yg sudah diinputkan didalam list nilai.
 print("==================================================================")
 ```
+- Flowchart
+![FLOWCHART](https://user-images.githubusercontent.com/22215113/69473040-4e903680-0de4-11ea-83fd-d34beaa04cb7.png)
 
 - Screenshot Input
 ![Input](https://user-images.githubusercontent.com/22215113/69473008-eccfcc80-0de3-11ea-8174-26729aa0c3b9.png)
@@ -43,8 +45,8 @@ print("==================================================================")
 ![Output](https://user-images.githubusercontent.com/22215113/69473016-feb16f80-0de3-11ea-9ea0-8bbd5b837d0b.png)
 
 ```
-                                 Veno Setyoaji Wiratama
-                                        311910363
-                                        TI.19.A.2
-                                Universitas Pelita Bangsa
+                                                      Veno Setyoaji Wiratama
+                                                             311910363
+                                                             TI.19.A.2
+                                                     Universitas Pelita Bangsa
 ```
